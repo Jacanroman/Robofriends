@@ -4,6 +4,11 @@ import Card from '../Components/card';
 const Cardlist = ({ robots }) => {
 
     const cardComponent = robots.map((user, i) => {
+        /* estas lineas son para ver ErrorBouders
+        if(true){
+            throw new Error('NOOOOOOOOOOO')
+        }
+        */
         return( 
         <Card
          key={i} 
