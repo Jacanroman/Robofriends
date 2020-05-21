@@ -48,7 +48,7 @@ class App extends Component{
          return robot.name.toLowerCase().includes(this.state.searchfield.toLowerCase());
       })
       if (this.state.robots.length ===0){
-         return <h1>Loading</h1>
+         return <h1 className="f1">Loading</h1>
       } else {
          return (
             <div className='tc'>
@@ -76,3 +76,7 @@ const App = () =>{
 */
 
 export default App;
+
+
+
+
