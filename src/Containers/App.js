@@ -22,9 +22,20 @@ class App extends Component{
       
    }
 
+  
+
    componentDidMount(){
-      fetch('https://jsonplaceholder.typicode.com/users')
+      //fetch('https://jsonplaceholder.typicode.com/users')
+      
+      fetch('https://jsonplaceholder.typicode.com/users',{
+         mode: "cors",
+         headers:{
+            "Access-Control-Allow-Origin": 
+        "https://jsonplaceholder.typicode.com/",
+         },
+      })
       .then(response=>{
+         console.log("no me da los putos datos")
          return response.json();
       })
       .then(users =>{
@@ -47,6 +58,7 @@ class App extends Component{
       const filteredRobots = this.state.robots.filter(robot =>{
          return robot.name.toLowerCase().includes(this.state.searchfield.toLowerCase());
       })
+      
       if (this.state.robots.length ===0){
          return <h1 className="f1">Loading</h1>
       } else {
