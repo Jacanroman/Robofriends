@@ -22,6 +22,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 <a href="[https://jacanroman.github.io/Robofriends/]"><img src="https://github.com/Jacanroman/Robofriends/blob/master/src/images/1view.png" alt="Image_web" /></a>
 
+<a href="[https://jacanroman.github.io/Robofriends/]"><img src="https://github.com/Jacanroman/Robofriends/blob/master/src/images/2view.png" alt="Image_web" /></a>
+
 
 
 ### Running the application locally
