@@ -18,6 +18,11 @@ The hosted version of the application is available here: [https://jacanroman.git
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### ScreenShots
+
+<a href="[https://jacanroman.github.io/Robofriends/]"><img src="https://github.com/Jacanroman/Robofriends/blob/master/src/images/1view.png" alt="Image_web" /></a>
+
+
 
 ### Running the application locally
 
